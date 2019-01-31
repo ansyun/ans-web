@@ -5,7 +5,9 @@
 	"startup"
 	],
     "Guides": ["doc2"],
-    "API": ["doc3"]
+    "API": [
+	"commands"
+	]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
