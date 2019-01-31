@@ -60,12 +60,10 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/docusaurus.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
+            <Button href={docUrl('build.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button>
           </PromoSection>
         </div>
@@ -98,6 +96,8 @@ class Index extends React.Component {
         style={{textAlign: 'center'}}>
         <h2>Feature Callout</h2>
         <MarkdownBlock>These are features of this project</MarkdownBlock>
+		
+		
       </div>
     );
 
@@ -115,7 +115,7 @@ class Index extends React.Component {
     );
 
     const Description = () => (
-      <Block background="dark">
+      <Block background="light">
         {[
           {
             content:
@@ -145,17 +145,29 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'DPDK native, userspace stack',
             image: `${baseUrl}img/docusaurus.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Accelerated Network',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Container network, Kubernetes backend network',
             image: `${baseUrl}img/docusaurus.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Cloud Native',
           },
+          {
+            content: 'Lockless, no scheduling, no interruption',
+            image: `${baseUrl}img/docusaurus.svg`,
+            imageAlign: 'top',
+            title: 'High Performance',
+          },		  
+          {
+            content: 'Easy adaption for any application',
+            image: `${baseUrl}img/docusaurus.svg`,
+            imageAlign: 'top',
+            title: 'Easy Customize',
+          },		  
         ]}
       </Block>
     );
@@ -194,10 +206,6 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
           <Showcase />
         </div>
       </div>
