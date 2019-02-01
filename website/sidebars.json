@@ -1,12 +1,18 @@
 {
   "docs": {
-    "Getting Started": [
+    "Guides": [
 	"build",
 	"startup"
 	],
-    "Guides": ["doc2"],
     "API": [
 	"commands"
+	],	
+    "Architecture": [
+	"architecture"
+	],
+	"Performance": [
+	"route forwarding performance",
+	"acl performance"
 	]
   },
   "docs-other": {
