@@ -106,7 +106,7 @@ class Index extends React.Component {
         {[
           {
             content: 'Talk about trying this out',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/ans.svg`,
             imageAlign: 'left',
             title: 'Try it Out',
           },
@@ -120,7 +120,7 @@ class Index extends React.Component {
           {
             content:
               'This is another description of how this project is useful',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/ans.svg`,
             imageAlign: 'right',
             title: 'Description',
           },
@@ -133,7 +133,7 @@ class Index extends React.Component {
         {[
           {
             content: 'Talk about learning how to use this',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/ans.svg`,
             imageAlign: 'right',
             title: 'Learn How',
           },
@@ -146,25 +146,25 @@ class Index extends React.Component {
         {[
           {
             content: 'DPDK native, userspace stack',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/ans.svg`,
             imageAlign: 'top',
             title: 'Accelerated Network',
           },
           {
             content: 'Container network, Kubernetes backend network',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/ans.svg`,
             imageAlign: 'top',
             title: 'Cloud Native',
           },
           {
             content: 'Lockless, no scheduling, no interruption',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/ans.svg`,
             imageAlign: 'top',
             title: 'High Performance',
           },		  
           {
             content: 'Easy adaption for any application',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/ans.svg`,
             imageAlign: 'top',
             title: 'Easy Customize',
           },		  

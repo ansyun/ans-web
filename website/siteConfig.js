@@ -35,8 +35,8 @@ const siteConfig = {
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/ans.svg',
+  footerIcon: 'img/ans.svg',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
