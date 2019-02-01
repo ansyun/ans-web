@@ -1,6 +1,6 @@
 ---
 id: startup
-title: startup
+title: Startup
 ---
 
 ## DPDK environment setup
