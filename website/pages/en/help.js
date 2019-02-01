@@ -27,12 +27,12 @@ function Help(props) {
       title: 'Browse Docs',
     },
     {
-      content: 'Ask questions about the documentation and project',
+      content: 'Join QQ Group 86883521 or 519855957. Send email to anssupport@163.com',
       title: 'Join the community',
     },
     {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      content: "At our [GitHub repo](https://github.com/ansyun/dpdk-ans) Browse and submit [issues](https://github.com/ansyun/dpdk-ans/issues) or [pull requests](https://github.com/ansyun/dpdk-ans/pulls) for bugs you find or any new features you may want implemented.",
+      title: 'GitHub',
     },
   ];
 
@@ -43,7 +43,7 @@ function Help(props) {
           <header className="postHeader">
             <h1>Need help?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>If you need help with ANS, you can try one of the mechanisms below.</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>
