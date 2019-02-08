@@ -11,8 +11,10 @@
 	"architecture"
 	],
 	"Performance": [
-	"route forwarding performance",
-	"acl performance"
+	"performance report"
+	],
+	"Application": [
+	"ANS application"
 	]
   },
   "docs-other": {
