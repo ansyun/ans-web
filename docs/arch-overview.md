@@ -57,3 +57,9 @@ title: Architecture
      - Support tap; 
    ```
    
+   ## ANS Code
+
+![](/img/arch/ans_code.png)
+
+
+   
