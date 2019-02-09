@@ -56,10 +56,8 @@ title: Architecture
      - Support kni; 
      - Support tap; 
    ```
-   
-   ## ANS Code
+
+## ANS Code
 
 ![](/img/arch/ans_code.png)
-
-
-   
+ 
