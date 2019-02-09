@@ -5,7 +5,7 @@ title: Architecture
 
 ## ANS Architecture
 
-![](/img/ans_arch.png)
+![](/img/arch/ans_arch.png)
 
 ## ANS Feature List:
 ```

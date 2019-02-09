@@ -8,7 +8,8 @@
 	"commands"
 	],	
     "Architecture": [
-	"architecture"
+	"architecture",
+	"container solution"
 	],
 	"Performance": [
 	"performance report"
