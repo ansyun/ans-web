@@ -9,13 +9,13 @@
 	],	
     "Architecture": [
 	"architecture",
-	"container solution"
+	"container-solution"
 	],
 	"Performance": [
-	"performance report"
+	"performance-report"
 	],
 	"Application": [
-	"application example"
+	"application-example"
 	]
   },
   "docs-other": {

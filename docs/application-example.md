@@ -1,5 +1,5 @@
 ---
-id: application example
+id: application-example
 title: Application Example
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: performance report
+id: performance-report
 title: Performance Report
 ---
 
