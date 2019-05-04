@@ -6,7 +6,7 @@ title: Performance Report
 ## Performance Report
 [ANS Performance Report](https://github.com/ansyun/dpdk-ans/tree/master/doc/guides/ans_performance_report.pdf)
 
-## L3 forwarding with NIC performance testing
+## L3 forwarding with NIC performance
 
   ENV: CPU- Intel(R) Xeon(R) CPU E5-2683 v3 @ 2.00GHz, NIC- Intel 82599ES 10-Gigabit,  Test tool:pktgen-DPDK
 ```
@@ -21,7 +21,7 @@ title: Performance Report
     |     128          |      Line Rate    | 
     |--------------------------------------| 
 ```
-## L3 forwarding with NIC with 1000 ACL performance testing
+## L3 forwarding with NIC with 1000 ACL performance
 
   ENV: CPU- Intel(R) Xeon(R) CPU E5-2683 v3 @ 2.00GHz, NIC- Intel 82599ES 10-Gigabit,  Test tool:pktgen-DPDK
 ```
@@ -37,7 +37,7 @@ title: Performance Report
     |---------------------------------------| 
 ```
 
-## L3 forwarding with vhost/virtio performance testing
+## L3 forwarding with vhost/virtio performance
 
   ENV: Intel(R) Xeon(R) CPU E5-2618L v4 @ 2.20GHz, NIC- vhost/virtio,  Test tool:pktgen-DPDK
 ```
@@ -134,7 +134,7 @@ Requests/sec: 531077.97
 Transfer/sec:    430.48MB
 
 ```
-## UDP application performance testing
+## UDP application performance
 ```
 CPU: Intel(R) Xeon(R) CPU E5-2683 v3 @ 2.00GHz
 NIC:82599ES 10-Gigabit SFI/SFP+ Network Connection (rev 01)
