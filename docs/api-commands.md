@@ -139,7 +139,9 @@ ans> ip link show
    TX packets:4 errors:0 dropped:0
    RX bytes:5433 TX bytes:312
 ans>
-.6.	Show IP statistics
+```
+## Show IP statistics
+```
 ans> ip stats show
  Total packets received               :33
  Checksum bad                         :0
